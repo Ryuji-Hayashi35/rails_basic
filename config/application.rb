@@ -23,8 +23,8 @@ module RunteqNormal
     config.load_defaults 5.2
 
     config.generators do |g|
-      g.assets.false
-      g.helper.false
+      g.assets false
+      g.helper false
       g.test_framework false
     end
 
